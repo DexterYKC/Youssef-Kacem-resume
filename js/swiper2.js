@@ -3,7 +3,7 @@ document.getElementById("btcButton").addEventListener("click", function () {
 });
 
 document.getElementById("ethButton").addEventListener("click", function () {
-    showQRCode("../res/eth.png"); // Remplacez par le chemin de votre QR code ETH
+    showQRCode("../res/ETH.png"); // Remplacez par le chemin de votre QR code ETH
 });
 
 document.getElementById("closeButton").addEventListener("click", function () {
