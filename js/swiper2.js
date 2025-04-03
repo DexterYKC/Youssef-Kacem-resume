@@ -1,5 +1,5 @@
 document.getElementById("btcButton").addEventListener("click", function () {
-    showQRCode("btc.png"); 
+    showQRCode("js/btc.png"); 
 
 document.getElementById("ethButton").addEventListener("click", function () {
     showQRCode("js/ETH.png"); 
