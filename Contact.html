@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youssef-Kacem-CVContact</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<link rel="shortcut icon" href="res/logo2.png">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.css" integrity="sha512-dUOcWaHA4sUKJgO7lxAQ0ugZiWjiDraYNeNJeRKGOIpEq4vroj1DpKcS3jP0K4Js4v6bXk31AAxAxaYt3Oi9xw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <header class="header header-pages" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">Youssef</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="Apropos.html" class="nav__link">A propos de moi</a>
+                    <li class="nav__item">
+                        <a href="Contact.html" class="button">Contactez moi</a>
+                    </li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+            <div class="nav__actions">
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-apps-2-line"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="contact section">
+            <h2 class="section__title">
+                Envoyez moi <br> un petit message ! 
+            </h2>
+
+
+            <div class="contact__page container grid">
+                <form action="" class="contact__form grid" id="contact-form">
+                    <div class="contact__group grid">
+                        <div class="contact__box">
+                            <input type="text" name="user_name" id="name" required placeholder="Ton Prénom" class="contact__input" >
+                            <label for="name" class="contact__label">Ton Prenom</label>
+                        </div>
+                        <div class="contact__box">
+                            <input type="email" name="user_email" id="email" required placeholder="Ton email" class="contact__input" >
+                            <label for="email" class="contact__label">Adresse Email</label>
+                        </div>
+                    </div>
+
+                    <div class="contact__box contact__area">
+                        <textarea name="user_message"  id="message" required placeholder="Ecrit ton message" class="contact__input"></textarea>
+                        <label for="email" class="contact__label">Message</label>
+                    </div>
+
+                    <p class="contact__message" id="contact-message"></p>
+                    <button type="submit" class="contact__send button">Envoyer le message</button>
+                </form>
+            </div>
+        </section>
+
+
+
+    </main>
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <div class="footer__content grid">
+                <a href="index.html" class="footer__logo">Youssef</a>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="Apropos.html" class="footer__link">A propos de moi</a>
+                    </li>
+
+                    
+
+                    <li>
+                        <a href="Contact.html" class="footer__link">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="footer__social">
+                    <a href=" https://w.app/VqGIfm" target="_blank" class="footer__social-link wapp">
+                        <i class="ri-whatsapp-line"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/youssef-kacem-b8553430a/" target="_blank" class="footer__social-link din">
+                        <i class="ri-linkedin-line"></i>
+                    </a>
+                    <a href="https://github.com/DexterYKC" target="_blank" class="footer__social-link hub">
+                        <i class="ri-github-line"></i>
+                    </a>
+                    <a href="https://t.me/+33695689348" target="_blank" class="footer__social-link gram">
+                        <i class="ri-telegram-line"></i>
+                    </a>
+                </div>
+            </div>
+            <span class="footer__copy">
+                &#169; All Rights Reserved By Y.Kacem
+            </span>
+
+        </div>
+
+
+
+    </footer>
+    <i class="ri-money-euro-circle-fill" id="popupButton"></i>
+    
+    <div id="popup" class="hidden">
+        <p class="colorpop"><b>Un petit don en BTC pour un étudiant dans le besoin ? 😅</b></p>
+        <br>
+       
+        
+        <button id="btcButton" class="button2">  
+            <p class="space">₿</p></button>
+            
+        <button id="ethButton" class="button3"><p class="space2">⟠</p></button>
+        <br>
+        <div id="qrCodeContainer" class="hidden">
+            <img id="qrCodeImage" src="" alt="QR Code" class="imgbtc">
+        </div>
+        <br>
+        <button id="closeButton" class="button">Pas envie !</button>
+    </div>
+    <script
+        
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+        <script src="js/contact.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/swiper2.js"></script>
+</body>
+</html>
