@@ -1,8 +1,8 @@
 document.getElementById("btcButton").addEventListener("click", function () {
-    showQRCode("js/btc.png"); 
+    showQRCode("..res/btc.png"); 
 
 document.getElementById("ethButton").addEventListener("click", function () {
-    showQRCode("js/ETH.png"); 
+    showQRCode("../res/ETH.png"); 
 
 document.getElementById("closeButton").addEventListener("click", function () {
     document.getElementById("popup").classList.add("hidden");
