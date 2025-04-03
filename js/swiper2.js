@@ -1,10 +1,8 @@
 document.getElementById("btcButton").addEventListener("click", function () {
-    showQRCode("../res/btc.png"); // Remplacez par le chemin de votre QR code BTC
-});
+    showQRCode("../res/btc.png"); 
 
 document.getElementById("ethButton").addEventListener("click", function () {
-    showQRCode("../res/ETH.png"); // Remplacez par le chemin de votre QR code ETH
-});
+    showQRCode("/res/ETH.png"); 
 
 document.getElementById("closeButton").addEventListener("click", function () {
     document.getElementById("popup").classList.add("hidden");
